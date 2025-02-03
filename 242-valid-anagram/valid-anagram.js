@@ -16,7 +16,7 @@ var isAnagram = function(s, t) {
         freq[t.charCodeAt(i) - 'a'.charCodeAt(0)]--;
     }
 
-    for(var i = 0; i < freq.length; i++)
+    for(var i = 0; i < freq.length; i++) // checking freq == 0; 
     {
         if(freq[i] !== 0)
         {
