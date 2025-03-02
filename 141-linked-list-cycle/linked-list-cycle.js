@@ -10,6 +10,11 @@
  * @param {ListNode} head
  * @return {boolean}
  */
+
+
+ // T: O(N)
+//  S: O(1)
+
 var hasCycle = function(head) {
     if(!head) return false;
     
